@@ -1,4 +1,4 @@
-
+import Button from 'react-bootstrap/esm/Button';
 import './panel.css';
 import {useState, useEffect} from 'react';
 import Form from "react-bootstrap/Form";

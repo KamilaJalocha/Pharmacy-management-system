@@ -44,7 +44,7 @@ class TestAPI(unittest.TestCase):
         assert r[0] == 200
 
     def test_register_api(self):
-        tupl = register('szymon', 'cogiel@student.agh.edu.pl', 'cs')
+        tupl = register('szymon', 'cogiel@student.agh.edu.pl', 'passworda')
         assert tupl[1].decode("utf-8") == 'Istnieje juz konto o takim logine'
 
     def test_register_db(self):
