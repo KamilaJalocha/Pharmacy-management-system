@@ -1,6 +1,6 @@
 from django.urls import path
 from .views import TestAPIView, LogView, RegisterView, DataTestView, PDFManualView,\
-    DataDrugsView, StockStatusView, UpdatePasswordView, DasView
+    DataDrugsView, StockStatusView, UpdatePasswordView
 
 urlpatterns = [
     path('pharamcy/test', TestAPIView.as_view()),
@@ -11,5 +11,5 @@ urlpatterns = [
     path('pharamcy/drugs', DataDrugsView.as_view()),
     path('pharamcy/stock', StockStatusView.as_view()),
     path('pharamcy/updatepass', UpdatePasswordView.as_view()),
-    path('pharamcy/das', DasView.as_view()),
+   # path('pharamcy/das', DasView.as_view()),
 ]

@@ -90,6 +90,15 @@ function Zamiennik() {
                 {/* potrzebna mi tutaj tabelka i sortowania*/}
                 <tr><th>Dostępna u nas</th><th>Dostępna w filiach</th><th>Możliwe zamienniki</th></tr>
                 <tr><td>Boolean</td><td>String</td><td>String</td></tr>
+
+                {data.map((item, index) => (
+             <tr key={index}>
+            <td>{item.drugname}</td>
+            <td>{item.amount}</td>
+            <td>{item.price}</td>
+            </tr>
+            ))}
+            
             </table>        
         </article>
         </body>  

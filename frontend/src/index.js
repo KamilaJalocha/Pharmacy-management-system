@@ -23,8 +23,8 @@ root.render(
   <React.StrictMode>
    {/* <App /> */}
     {/* <Panel /> */}
-    { <Dostepne_leki/> }
-    {/* <Zamiennik /> */}
+    { /*<Dostepne_leki/> */}
+    { <Zamiennik /> }
     {/* <Sprzedaz />  */}
     {/* <Recepta /> */}
     { /*<Bez_recepty /> */}
