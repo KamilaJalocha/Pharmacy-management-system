@@ -21,9 +21,9 @@ import Dashboard from './dashboard';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+   {/* <App /> */}
     {/* <Panel /> */}
-    {/* <Dostepne_leki/> */}
+    { <Dostepne_leki/> }
     {/* <Zamiennik /> */}
     {/* <Sprzedaz />  */}
     {/* <Recepta /> */}
