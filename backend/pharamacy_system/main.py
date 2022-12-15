@@ -22,7 +22,7 @@ if __name__ == '__main__':
     plt.ylabel('Ilość',size=40)
     plt.grid(True)
     plt.title('Najpopularniejsze ceny',size=40)
-    plt.savefig('../../frondend/src/Plots/cena.png')
+    plt.savefig('../../frontend/src/Plots/cena.png')
     plt.show()
 
     rodzaje=pd.read_sql_query('SELECT condition, COUNT(*) FROM drugs GROUP BY condition ORDER BY count DESC LIMIT 5;', con=engine)
@@ -31,7 +31,7 @@ if __name__ == '__main__':
     plt.xlabel('Przeznaczenie leku',size=40)
     plt.ylabel('Ilość',size=40)
     plt.title('Najpopularniejsze rodzaje leków',fontsize=30)
-    plt.savefig('../../frondend/src/Plots/rodzaje.png')
+    plt.savefig('../../frontend/src/Plots/rodzaje.png')
     plt.show()
     #plt.figure(1,figsize=(8,8))
     #rodzaje_all = pd.read_sql_query('SELECT condition, COUNT(*) FROM drugs GROUP BY condition',con=engine)
